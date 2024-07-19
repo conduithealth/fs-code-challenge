@@ -1,0 +1,152 @@
+{
+    "payors": [
+      {
+        "id": "7ec89175-0bc8-48d3-ba64-805a06dadd18",
+        "name": "Medicare"
+      },
+      {
+        "id": "77a74ef8-603a-475b-9221-e10e9c57d1e2",
+        "name": "Medicaid"
+      },
+      {
+        "id": "d4917994-2a02-4479-b047-5383ad5d2048",
+        "name": "Blue Cross"
+      },
+      {
+        "id": "a8ae0b08-982f-4c1a-90ea-36ccac963499",
+        "name": "United Healthcare"
+      }
+    ],
+    "suppliers": [
+        {
+          "id": "c48b0bf3-0ad9-42fc-a604-eca8145cdce4",
+          "name": "DME R US"
+        },
+        {
+          "id": "80f9256d-d3ee-4081-a5bd-8f395ca3122c",
+          "name": "DME Mart"
+        },
+        {
+          "id": "6576fb4d-b68b-478f-988e-328efe3350c8",
+          "name": "The DME Store"
+        },
+        {
+          "id": "3093633c-5cdb-40a5-914d-86a7e972f538",
+          "name": "DMEmporium"
+        }
+      ],
+    "products": [
+      {
+        "title": "Cane",
+        "id": "b47dd3e6-a290-484a-8142-5ca723604dec",
+        "inNetworkPayors": ["7ec89175-0bc8-48d3-ba64-805a06dadd18", "77a74ef8-603a-475b-9221-e10e9c57d1e2"],
+        "availableSuppliers": ["c48b0bf3-0ad9-42fc-a604-eca8145cdce4", "6576fb4d-b68b-478f-988e-328efe3350c8"],
+        "category": "Ambulation",
+        "image": "https://lumanatherapy.com/wp-content/uploads/2019/11/cane.jpg"
+      },
+      {
+        "title": "Walker With Wheels",
+        "id": "4ebf5427-15a5-4971-ac62-9881732f21e0",
+        "inNetworkPayors": ["7ec89175-0bc8-48d3-ba64-805a06dadd18"],
+        "availableSuppliers": ["80f9256d-d3ee-4081-a5bd-8f395ca3122c"],
+        "category": "Ambulation",
+        "image": "https://athome.medline.com/media/catalog/product/cache/7018c0f431b5fb4345af92ab4b01d9b9/m/d/mds86410xww_pri03.jpg"
+      },
+      {
+        "title": "Quad Cane",
+        "id": "06bb6fc9-181a-40e8-8df2-ce6dd285d5ff",
+        "inNetworkPayors": ["a8ae0b08-982f-4c1a-90ea-36ccac963499", "d4917994-2a02-4479-b047-5383ad5d2048"],
+        "availableSuppliers": ["3093633c-5cdb-40a5-914d-86a7e972f538", "80f9256d-d3ee-4081-a5bd-8f395ca3122c"],
+        "category": "Ambulation",
+        "image": "https://cdn11.bigcommerce.com/s-6p9hu73cg2/images/stencil/1280x1280/products/728/599/hdbariatricquad-slv__75030.1616210771.jpg?c=2"
+      },
+      {
+        "title": "Knee Walker",
+        "id": "15df24b7-abc5-4278-b1f4-8d7ff39f81e4",
+        "inNetworkPayors": ["a8ae0b08-982f-4c1a-90ea-36ccac963499"],
+        "availableSuppliers": ["6576fb4d-b68b-478f-988e-328efe3350c8"],
+        "category": "Ambulation",
+        "image": "https://cdn.shoplightspeed.com/shops/648439/files/37253856/1652x1652x2/drive-economy-folding-knee-walker.jpg"
+      },
+      {
+        "title": "Lightweight Wheelchair",
+        "id": "b3133abd-778b-40f2-af03-5322de4554f0",
+        "inNetworkPayors": ["a8ae0b08-982f-4c1a-90ea-36ccac963499", "d4917994-2a02-4479-b047-5383ad5d2048", "77a74ef8-603a-475b-9221-e10e9c57d1e2"],
+        "availableSuppliers": ["3093633c-5cdb-40a5-914d-86a7e972f538", "80f9256d-d3ee-4081-a5bd-8f395ca3122c", "c48b0bf3-0ad9-42fc-a604-eca8145cdce4"],
+        "category": "Ambulation",
+        "image": "https://m.media-amazon.com/images/I/71ZWWpHUcpL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "title": "Reusable Chair Pad",
+        "id": "977b80c5-93b6-4450-bbe7-afcf3d8956e8",
+        "inNetworkPayors": ["7ec89175-0bc8-48d3-ba64-805a06dadd18", "77a74ef8-603a-475b-9221-e10e9c57d1e2", "d4917994-2a02-4479-b047-5383ad5d2048", "a8ae0b08-982f-4c1a-90ea-36ccac963499"],
+        "availableSuppliers": ["c48b0bf3-0ad9-42fc-a604-eca8145cdce4", "80f9256d-d3ee-4081-a5bd-8f395ca3122c", "6576fb4d-b68b-478f-988e-328efe3350c8", "3093633c-5cdb-40a5-914d-86a7e972f538"],
+        "category": "Incontinence",
+        "image": "https://m.media-amazon.com/images/I/61x76O1jHjL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "title": "Nebulizer",
+        "id": "30c2b22f-ffca-46e1-bbbe-51ef44b790b4",
+        "inNetworkPayors": ["7ec89175-0bc8-48d3-ba64-805a06dadd18", "a8ae0b08-982f-4c1a-90ea-36ccac963499"],
+        "availableSuppliers": ["c48b0bf3-0ad9-42fc-a604-eca8145cdce4", "3093633c-5cdb-40a5-914d-86a7e972f538"],
+        "category": "Nebulizers",
+        "image": "https://accounts.tcloud.co.ke/multiple_images/9ce89fc472cd9a099f797a25c29fc031.png"
+      },
+      {
+        "title": "Freestyle Libre 2 Sensor",
+        "id": "23cdeb1b-e38c-43e0-9efd-f940554f0824",
+        "inNetworkPayors": ["77a74ef8-603a-475b-9221-e10e9c57d1e2", "d4917994-2a02-4479-b047-5383ad5d2048", "a8ae0b08-982f-4c1a-90ea-36ccac963499"],
+        "availableSuppliers": ["80f9256d-d3ee-4081-a5bd-8f395ca3122c", "6576fb4d-b68b-478f-988e-328efe3350c8", "3093633c-5cdb-40a5-914d-86a7e972f538"],
+        "category": "Diabetic",
+        "image": "https://myehcs.com/wp-content/uploads/Libre2Sensors.png"
+      },
+      {
+        "title": "Freestyle Libre 3 Reader",
+        "id": "e3b6e9da-dab7-4efe-912c-de9997ad664f",
+        "inNetworkPayors": ["7ec89175-0bc8-48d3-ba64-805a06dadd18", "d4917994-2a02-4479-b047-5383ad5d2048"],
+        "availableSuppliers": ["c48b0bf3-0ad9-42fc-a604-eca8145cdce4", "80f9256d-d3ee-4081-a5bd-8f395ca3122c", "6576fb4d-b68b-478f-988e-328efe3350c8"],
+        "category": "Diabetic",
+        "image": "https://hartmedical.org/uploads/ecommerce/freestyle-libre-3-receiver-43662.jpg"
+      },
+      {
+        "title": "Diabetic Custom Shoes",
+        "id": "1de6e0b3-6370-499e-8719-887447eaaa6e",
+        "inNetworkPayors": ["7ec89175-0bc8-48d3-ba64-805a06dadd18", "77a74ef8-603a-475b-9221-e10e9c57d1e2", "d4917994-2a02-4479-b047-5383ad5d2048", "a8ae0b08-982f-4c1a-90ea-36ccac963499"],
+        "availableSuppliers": ["6576fb4d-b68b-478f-988e-328efe3350c8"],
+        "category": "Orthotics",
+        "image": "https://cdn11.bigcommerce.com/s-z831mu2/images/stencil/1280x1280/products/155/617/800-Custom__39439.1604477857.jpg?c=2"
+      },
+      {
+        "title": "Axillary Crutches",
+        "id": "7a42af9a-8c8a-4c27-945b-43b78367aca1",
+        "inNetworkPayors": ["77a74ef8-603a-475b-9221-e10e9c57d1e2", "a8ae0b08-982f-4c1a-90ea-36ccac963499"],
+        "availableSuppliers": ["c48b0bf3-0ad9-42fc-a604-eca8145cdce4", "6576fb4d-b68b-478f-988e-328efe3350c8"],
+        "category": "Ambulation",
+        "image": "https://m.media-amazon.com/images/I/51nAyr5TveL.jpg"
+      },
+      {
+        "title": "Blood Pressure Kit",
+        "id": "60b94227-16ff-422a-b63a-a1d2809ab58c",
+        "inNetworkPayors": ["a8ae0b08-982f-4c1a-90ea-36ccac963499"],
+        "availableSuppliers": ["c48b0bf3-0ad9-42fc-a604-eca8145cdce4", "80f9256d-d3ee-4081-a5bd-8f395ca3122c"],
+        "category": "Diabetic",
+        "image": "https://m.media-amazon.com/images/I/51Vh-YcSGwL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "title": "Shower Chair No Back",
+        "id": "d3589ba2-0f8e-4d63-8cc3-a71c34acb602",
+        "inNetworkPayors": ["7ec89175-0bc8-48d3-ba64-805a06dadd18", "d4917994-2a02-4479-b047-5383ad5d2048"],
+        "availableSuppliers": ["6576fb4d-b68b-478f-988e-328efe3350c8"],
+        "category": "Bathroom",
+        "image": "https://m.media-amazon.com/images/I/61KOq4QRn9L._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "title": "Shower Chair With Back & Arms",
+        "id": "b8fa3861-95f9-4a2f-9d00-62dbf8086f88",
+        "inNetworkPayors": ["d4917994-2a02-4479-b047-5383ad5d2048", "a8ae0b08-982f-4c1a-90ea-36ccac963499"],
+        "availableSuppliers": ["c48b0bf3-0ad9-42fc-a604-eca8145cdce4", "80f9256d-d3ee-4081-a5bd-8f395ca3122c"],
+        "category": "Bathroom",
+        "image": "https://m.media-amazon.com/images/I/71F5Bowf1NL.jpg"
+      }
+    ]
+  }
